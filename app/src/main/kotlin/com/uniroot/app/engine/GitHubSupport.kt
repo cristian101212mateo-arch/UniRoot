@@ -228,8 +228,8 @@ class GitHubSupport(private val context: Context) {
     }
 
     companion object {
-        private const val RMG_COMMIT_API = "https://api.github.com/repos/BuSung-dev/Root-My-Galaxy-Payloads/git/ref/heads/main"
-        private const val RMG_RAW = "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads"
+        private const val RMG_COMMIT_API = "https://api.github.com/repos/cristian101212mateo-arch/Root-My-Galaxy-Payloads/git/ref/heads/main"
+        private const val RMG_RAW = "https://raw.githubusercontent.com/cristian101212mateo-arch/Root-My-Galaxy-Payloads"
         private const val RMG_RAW_MAIN = "$RMG_RAW/main/"
         private const val MAX_COMMIT_RESPONSE_BYTES = 16 * 1024
         private const val MAX_MANIFEST_BYTES = 256 * 1024
